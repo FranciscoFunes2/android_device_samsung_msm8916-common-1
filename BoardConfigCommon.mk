@@ -212,6 +212,9 @@ BOARD_FLASH_BLOCK_SIZE              := 131072
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 TARGET_FLATTEN_APEX := true
 
+# Low Memory Devices
+MALLOC_SVELTE := true
+
 # Legacy BLOB Support
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/bin/mediaserver=22 \
