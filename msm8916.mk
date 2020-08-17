@@ -375,6 +375,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service \
     power.qcom
 
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Radio
 PRODUCT_PACKAGES += \
     librmnetctl \
