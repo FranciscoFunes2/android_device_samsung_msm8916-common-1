@@ -191,6 +191,9 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
+# Exclude AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
