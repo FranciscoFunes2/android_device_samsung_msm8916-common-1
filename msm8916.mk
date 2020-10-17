@@ -560,7 +560,7 @@ PRODUCT_PACKAGES += \
 
 # ZRAM - Size in MB
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.zram.size=128
+    ro.config.zram.size=512
 
 # Memory fix
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -572,7 +572,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.dha_th_rate=2.3 \
     ro.config.sdha_apps_bg_max=64 \
     ro.config.sdha_apps_bg_min=8
-    
+
     # Google Play Store
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.opengles.version=196608
